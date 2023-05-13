@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Cartempty from "./cart.png";
 
 const Cart = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const [total, setTotal] = useState(0);
 
