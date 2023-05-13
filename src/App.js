@@ -8,6 +8,7 @@ import SingleProduct from "./pages/Product/singleProduct"
 import Products from "./pages/Products/allProducts"
 import CategoryProducts from "./pages/Category"
 import Cart from "./pages/Cart/Cart"
+import CheckoutPage from "./pages/Checkout/Checkout"
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
         <Route path='/categories/:name' element={<CategoryProducts/>}/> 
         <Route path='*' element={<div>404</div>}/>
         <Route path='/cart' element={<Cart/>}/>  
-        
+        <Route path='/checkout' element={<CheckoutPage/>}/>
       </Routes>
   
 

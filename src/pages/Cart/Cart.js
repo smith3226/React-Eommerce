@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Cartempty from "./cart.png";
 
 const Cart = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const [total, setTotal] = useState(0);
 
@@ -249,9 +249,9 @@ const Cart = () => {
                       : (total + 10).toFixed(0)}
                   </span>
                 </div>
-                <button className="bg-indigo-500 font-semibold hover:bg-indigo-600 py-3 text-sm text-white uppercase w-full">
+                <Link to='/checkout'><button className="bg-indigo-500 font-semibold hover:bg-indigo-600 py-3 text-sm text-white uppercase w-full">
                   Checkout
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>

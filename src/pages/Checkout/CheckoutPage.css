@@ -1,0 +1,14 @@
+.checkout-page {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .thank-you-message {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
